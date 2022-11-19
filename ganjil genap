@@ -1,0 +1,30 @@
+package uts;
+import java.util.Scanner;
+ public class menentukan_bilangan_ganjil_dan_genap {
+ public static void main(String[] args) {
+ Scanner input=new Scanner(System.in);
+ int number;
+ System.out.println("PROGRAM MENENTUKAN BILANGAN GANJIL DAN GENAP");
+ System.out.println("--------------------------------------------");
+ System.out.print("Masukkan bilangan = ");
+ number=input.nextInt();
+
+ if (number%2==0)
+ if (number>-1){
+ System.out.println("Bilangan "+number+"adalah bilangan Genap Positif");
+ }
+ else{
+ System.out.println("Bilangan "+number+"adalah bilangan Ganjil negatif");
+ }
+ else{
+ System.out.println("Bilangan "+number+"adalah bilangan Ganjil Positif");
+
+ }
+ if(number==0){
+ System.out.println("Bilangan "+number+"adalah bilangan Nol");
+ }
+ else{
+ System.out.println();
+ }
+ }
+ }
