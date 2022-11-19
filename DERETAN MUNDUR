@@ -1,0 +1,96 @@
+package uts2;
+/**
+*
+* @author hawwin
+*/import java.util.Scanner;
+public class Uts2 {
+ /**
+ * @param args the command line arguments
+ */
+ public static void main(String[] args) {
+ Scanner input=new Scanner(System.in);
+ int number;
+ System.out.println("PROGRAM INPUT");
+ System.out.println("-------------");
+ System.out.print("Masukkan bilangan = ");
+ number=input.nextInt();
+
+ if (number==5){
+ for (int i=5 ; i>=1; i--){
+ System.out.print(i + " ");
+ }
+ System.out.println(" ");
+
+ }
+ if (number==5){
+ for (int i=5 ; i>=2; i--){
+ System.out.print(i + " ");
+ }
+ System.out.println(" ");
+
+ }
+ if (number==5){
+ for (int i=5 ; i>=3; i--){
+ System.out.print(i + " ");
+ }
+ System.out.println(" ");
+
+ }
+ if (number==5){
+ for (int i=5 ; i>=4; i--){
+ System.out.print(i + " ");
+ }
+ System.out.println(" ");
+
+ }
+ if (number==5){
+ for (int i=5 ; i>=5; i--){
+ System.out.print(i + " ");
+ }
+ System.out.println(" ");
+
+ }
+ if (number==7){
+ for (int i=7 ; i>=1; i--){
+ System.out.print(i + " ");
+ }
+ System.out.println(" ");
+ }
+ if (number==7){
+ for (int i=7 ; i>=2; i--){
+ System.out.print(i + " ");
+ }
+ System.out.println(" ");
+ }
+ if (number==7){
+ for (int i=7 ; i>=3; i--){
+ System.out.print(i + " ");
+ }
+ System.out.println(" ");
+ }
+ if (number==7){
+ for (int i=7 ; i>=4; i--){
+ System.out.print(i + " ");
+ }
+ System.out.println(" ");
+ }
+ if (number==7){
+ for (int i=7 ; i>=5; i--){
+ System.out.print(i + " ");
+ }
+ System.out.println(" ");
+ }
+ if (number==7){
+ for (int i=7 ; i>=6; i--){
+ System.out.print(i + " ");
+ }
+ System.out.println(" ");
+ }
+ if (number==7){
+ for (int i=7 ; i>=7; i--){
+ System.out.print(i + " ");
+ }
+ System.out.println(" ");
+ }
+ }
+}
